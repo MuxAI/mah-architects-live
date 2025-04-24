@@ -1,102 +1,120 @@
-/* CONTACT PAGE LAYOUT */
+.contact-section {
+  padding: 4rem 2rem;
+  font-family: 'Raleway', sans-serif;
+}
 
-/* ========== SOCIAL LINKS SECTION ========== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Left Column */
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.contact-left h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contact-left p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-left a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+/* Middle Column: Social Icons */
+.contact-middle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
 .social-links {
-    text-align: center;
-    padding: 4rem 1rem 2rem;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .social-links h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-  }
-  
-  .social-links-list {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-  }
-  
-  .social-block {
-    position: relative;
-    width: 32px;
-    height: 32px;
-  }
-  
-  .social-block img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: opacity 0.3s ease;
-  }
-  
-  .social-block .hover-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  
-  .social-block:hover .hover-icon {
-    opacity: 1;
-  }
-  
-  .social-block:hover img:not(.hover-icon) {
-    opacity: 0;
-  }
-  
-  
-  /* ========== OFFICE LOCATIONS SECTION ========== */
-  .office-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 3rem 1rem;
-    gap: 2rem;
-    background-color: #00121c;
-  }
-  
-  .office-grid-item {
-    background-color: #00121c;
-    color: white;
-    width: 260px;
-    padding: 1.5rem;
-    text-align: left;
-    border-radius: 6px;
-  }
-  
-  .office-grid-item img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 1rem;
-  }
-  
-  .office-grid-item h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-  }
-  
-  .office-grid-item .address {
-    font-family: 'Montserrat', sans-serif;
-    white-space: pre-wrap;
-    line-height: 1.5;
-    font-size: 0.95rem;
-  }
-  
-  
-  /* ========== RESPONSIVE DESIGN ========== */
-  @media (max-width: 768px) {
-    .social-links-list {
-      flex-direction: column;
-      gap: 1rem;
-    }
-  
-    .office-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.social-links a {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+.social-links img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.social-links .hover-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.social-links a:hover .hover-icon {
+  opacity: 1;
+}
+
+.social-links a:hover img:not(.hover-icon) {
+  opacity: 0;
+}
+
+/* Right Column */
+.contact-right iframe {
+  width: 100%;
+  height: 550px;
+  border: none;
+}

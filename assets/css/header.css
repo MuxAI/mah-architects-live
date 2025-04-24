@@ -1,0 +1,42 @@
+.site-header {
+    background-color: #aaa;
+    opacity: 0.7;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%; 
+    padding: 1rem 2rem;
+  }
+  
+  .nav-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s;
+  }
+  
+  .navbar a:hover {
+    color: #000;
+  }
+  

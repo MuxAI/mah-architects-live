@@ -1,0 +1,28 @@
+<!-- Header/Navbar -->
+<header class="site-header">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="/"><img src="/images/logos/Logo-c.png" alt="MAH Architects Logo"></a>
+    </div>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        e.preventDefault();
+        targetElement.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+</script>
