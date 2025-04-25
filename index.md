@@ -15,11 +15,11 @@ title: Home
 
 <script>
   const imageUrls = [
-    "/images/projects/Multi unit Residential.jpg",
-    "/images/projects/Custom Houses.jpg",
-    "/images/projects/Commercial Buildings.jpg",
-    "/images/projects/Industrial Buildings.jpg",
-    "/images/projects/Institutional Buildings.jpg"
+    "/images/projects/Multi unit Residential.png",
+    "/images/projects/Custom Houses.png",
+    "/images/projects/Commercial Buildings.png",
+    "/images/projects/Industrial Buildings.png",
+    "/images/projects/Institutional Buildings.png"
   ];
 
   const captions = [
@@ -69,7 +69,6 @@ title: Home
 
 
 <!-- About section -->
-
 <div id="about" class="about-section columns-2">
   <div>
     <h2>About</h2>
@@ -93,7 +92,7 @@ process, and environmental considerations.
   </div>
   <div>
     <h2>Jurisdictions We had Experience</h2>
-    <img src="/images/logos/jury.png" alt="Jurisdictions" style="width:100%; height:auto;">
+    <img src="/images/logos/jury.png" alt="Jurisdictions" style="width:80%; height:auto;">
   </div>
 </div>
 
@@ -150,16 +149,18 @@ standards.</p>
 Architectural Institute of Canada (RAIC)</b>, <b>Ontario Association of Architects (OAA)</b>, 
 and other local and International regulatory bodies.</p>
     <div style="display:flex; gap:1rem; margin-top:1rem;">
-      <img src="/images/logos/OAA Logo.jpg" height="100">
-      <img src="/images/logos/RHFAC Professional.jpg" height="100">
-      <img src="/images/logos/raic-member-2024.png" height="100">
+      <img src="/images/logos/OAA Logo.png" height="75px">
+      <img src="/images/logos/RHFAC Professional.png" height="80px">
+      <img src="/images/logos/raic-member-2024.png" height="80px">
     </div>
   </div>
   <div class="right-align">
     <p>Services We Offer</p><br />
     <p>Feasibility Studies/ Facility Assessments</p>
     <p>Architectural and Interior Design</p>
-    <p>Zoning Amendment/ Site Plan Approvals/ Committee of Adjustments/ Building Permit</p>
+    <p>Zoning Amendment/ Site Plan Approvals</p>
+    <p>Committee of Adjustments</p>
+    <p>Building Permit</p>
     <p>Structural and MEP service integration</p>
     <p>Bidding and Contract negotiations</p>
     <p>Project Contract Administration</p>
