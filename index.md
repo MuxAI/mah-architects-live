@@ -17,8 +17,8 @@ title: Home
   const imageUrls = [
     "/images/projects/Multi unit Residential.png",
     "/images/projects/Custom Houses.png",
-    "/images/projects/Commercial Buildings.png",
-    "/images/projects/Industrial Buildings.png",
+    "/images/projects/Commercial Buildings.jpg",
+    "/images/projects/Industrial Buildings.jpg",
     "/images/projects/Institutional Buildings.png"
   ];
 
