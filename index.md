@@ -125,7 +125,11 @@ process, and environmental considerations.
       <img src="/images/team/Mohona.jpg" alt="Mohona Das Orthi">
       <div class="bio">
         <h3>Mohona Das Orthi</h3>
-        <p>Architectural Designer</p>
+        <p>Intern Architect</p>
+<p class="description">
+          OAA Intern, B.Arch
+        </p>
+
       </div>
     </div>
   </div>
